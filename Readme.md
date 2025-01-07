@@ -23,8 +23,10 @@ git reset head~1                  --> commit goes  back one step<br>
 git reset   commit-hash           --> go back  to specific commit<br>
 git reset --hard  commit-hash     --> changes are done vscode also<br>
 
-
-
+<h2> Assigning new User </h2>
+git config --global user.name “[firstname lastname]”         --> set a name that is identifiable for credit when review version history
+git config --global user.email “[valid-email]”               --> set an email address that will be associated with each history marker
+git config --global color.ui auto                            --> set automatic command line coloring for Git for easy reviewing
 
 
 
